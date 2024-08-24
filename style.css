@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #00000000;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  text-transform: capitalize;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+button {
+  position: relative;
+  z-index: 100;
+}
+body,
+html {
+  width: 100%;
+  background-color: ;
+  height: 100%;
+}
+main {
+  width: 100%;
+  background-color: #000;
+}
+#cursor {
+  height: 40px;
+  border: 2px solid white;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.02s;
+  z-index: 5;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6vh 9vh;
+  position: absolute;
+  width: 100%;
+}
+.nav1 h3 {
+  font-size: 25px;
+}
+.nav2 a {
+  font-size: 1.9vmin;
+  padding: 2px 10px;
+  transition: all 0.2s ease-in-out;
+}
+.nav2 a:hover {
+  color: beige;
+  scale: 1.1;
+}
+
+.nav3 #btn {
+  font-size: 1.9vmin;
+  padding: 2px 10px;
+  text-transform: capitalize;
+}
+.nav3 #btn2:hover {
+  scale: 0.9;
+}
+
+.nav3 #btn2 {
+  font-size: 1.9vmin;
+  padding: 10px 20px;
+  border-radius: 22px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: all 0.1s ease-in-out;
+}
+
+/* ///////////////////////////////////// */
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1530840197133-665af68f9d71?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: 65%;
+  background-size: 700px 450px;
+  background-repeat: no-repeat;
+}
+
+.heroin {
+  width: 33%;
+  height: fit-content;
+  position: absolute;
+  top: 30%;
+  left: 12%;
+}
+.btn1 {
+  width: max-content;
+  padding: 3px 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(142, 142, 233);
+  font-size: 1.8vmin;
+  color: rgb(168, 168, 168);
+}
+.herotext {
+  margin-top: 10vh;
+}
+.herotext h2 {
+  font-size: 10vmin;
+  font-weight: 300;
+  letter-spacing: -3px;
+  line-height: 10vmin;
+}
+.herotext h5 {
+  font-size: 2vmin;
+  color: rgba(215, 250, 231, 0.608);
+  font-weight: 200;
+  margin-top: 2vh;
+}
+
+.herobtn {
+  margin-top: 10vh;
+}
+.herobtn-2 {
+  background-color: white;
+  color: black;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 1.8vmin;
+}
+.herobtn-3 {
+  color: rgb(125, 123, 123);
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 1.8vmin;
+}
+/* ///////////////////////////////////////////////////// */
+.name {
+  height: 45vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name h2 {
+  color: #7f7d7d;
+  font-weight: 100;
+  font-family: Edwardian Script ITC;
+  font-size: 7vmin;
+}
+.name h2 p {
+  padding: 2px 6px;
+  font-weight: 600;
+  font-size: inherit;
+  font-size: 7vmin;
+  display: inline-block;
+  font-family: Edwardian Script ITC;
+  color: rgba(255, 68, 0, 0.442);
+}
+/* * /////////////////////////////// */
+.page2 {
+  width: 90%;
+  height: max-content;
+  margin-inline: auto;
+  border-top: 3px solid;
+  padding: 10vh 1vw;
+  border-radius: 50px;
+}
+.page2 p {
+  text-align: center;
+  font-size: 2.3vmin;
+  font-weight: 300;
+  color: #b0adad;
+  padding-bottom: 100px;
+}
+.page2 div {
+  width: 80%;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vmin;
+}
+.page2 div h3 {
+  font-size: 2.8vmin;
+}
+.page2 div h3 i {
+  font-size: 3.4vmin;
+  color: #dc7a7a;
+}
